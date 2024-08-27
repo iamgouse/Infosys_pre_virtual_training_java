@@ -16,15 +16,15 @@ class Tester {
 		if (accountBalance < 1000){
 		    System.out.println("Insufficiant balance");
 		}
-		if (salary > 25000 && loanType == 'car'){
+		else if (salary > 25000 && loanType == 'car'){
 		    eligibleLoanAmount = 500000;
 		    eligibleEmis = 36;
 		}
-		if (salary > 50000 && loanType == 'house'){
+		else if (salary > 50000 && loanType == 'house'){
 		    eligibleLoanAmount = 500000;
 		    eligibleEmis = 6000000;
 		}
-		if (salary > 75000 && loanType == 'business'){
+		else if (salary > 75000 && loanType == 'business'){
 		    eligibleLoanAmount = 75000000;
 		    eligibleEmis = 84;
 		}
