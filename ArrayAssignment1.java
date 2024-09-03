@@ -43,7 +43,7 @@ class Teacher {
             this.salary = salary;
         }
         public void displayDetails(){
-            System.out.println("Name: " + teacherName + ", Subject: " + subject + ", Salary " + salary );
+            System.out.println("Name: " + teacherName + ", Subject: " + subject + ", Salary: " + salary );
         }
     }
 
@@ -57,7 +57,6 @@ class Tester {
 	 for (Teacher teacher : teachers){
 	     teacher.displayDetails();
 	 }
-	    // Implement your code here 
 	}
 }
 
